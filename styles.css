@@ -47,6 +47,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 50%;
   }
 }
 
@@ -55,7 +56,7 @@ nav {
   gap: 48px;
 
   > * {
-    flex: 1 1 50%;
+    flex: 0 1 50%;
   }
 }
 
@@ -75,4 +76,39 @@ header {
 header a {
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.info-section {
+  text-align: center;
+
+  h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    li {
+      width: 150px;
+    }
+
+    img {
+      display: block;
+      aspect-ratio: 1/1;
+      border: 2px solid #3882f6;;
+      border-radius: 8px;
+    }
+
+    p {
+      color: grey;
+    }
+  }
 }
