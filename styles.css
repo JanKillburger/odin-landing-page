@@ -1,6 +1,9 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -164,4 +167,14 @@ nav {
     border: 1px solid #F9FAF8;
     padding-block: 6px;
   }
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding-block: 3em;
 }
