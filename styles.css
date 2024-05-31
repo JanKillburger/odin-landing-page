@@ -20,14 +20,6 @@ button {
   cursor: pointer;
 }
 
-img {
-  color: #E5E7EB;
-  background-color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 nav {
   display: flex;
   gap: 24px;
@@ -41,11 +33,20 @@ nav {
 
 .hero-section {
   background-color: #1f2937;
+  padding-bottom: 96px;
 
   p {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 8px;
+  }
+
+  img {
+    color: #E5E7EB;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
