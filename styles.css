@@ -112,3 +112,27 @@ header a {
     }
   }
 }
+
+.quote-section {
+  background-color: #E5E7F6;
+  font-size: 24px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+  padding-block: 48px;
+
+  .section-container {
+    max-width: 600px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .quote-origin {
+    text-align: right;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
