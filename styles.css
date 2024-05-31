@@ -35,6 +35,25 @@ nav {
   background-color: #1f2937;
   padding-bottom: 96px;
 
+  .logo {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  
+  header a {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+
   p {
     font-size: 18px;
     color: #E5E7EB;
@@ -49,33 +68,15 @@ nav {
     justify-content: center;
     max-width: 50%;
   }
-}
 
-.hero-content {
-  display: flex;
-  gap: 48px;
-
-  > * {
-    flex: 0 1 50%;
+  .hero-content {
+    display: flex;
+    gap: 48px;
+  
+    > * {
+      flex: 0 1 50%;
+    }
   }
-}
-
-.logo {
-  color:#F9FAF8;
-  font-weight: bold;
-  font-size: 24px;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-header a {
-  color: #E5E7EB;
-  text-decoration: none;
 }
 
 .info-section {
